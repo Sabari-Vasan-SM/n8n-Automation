@@ -1,0 +1,8 @@
+{
+  "messaging_product": "whatsapp",
+  "to": "={{$json[\"phone\"]}}",
+  "type": "text",
+  "text": {
+    "body": "Hello! Thanks for messaging us. How can we help you today?"
+  }
+}
