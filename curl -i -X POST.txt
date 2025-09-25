@@ -1,0 +1,12 @@
+curl -i -X POST \
+  https://graph.facebook.com/v22.0/864447773408121/messages \
+  -H 'Authorization: Bearer EAAKxh3ixxjUBPu4Rjq7HpMiMBy1AbQ0bmk4Avgl950MvLKOmNv7aPqLjmsu8X43YgRdSEuvu9IiZCMR0TxOjCjm7oOX1QQx1MHZAAiLJN0ZCm7gfTaZBJDOo42pGGIvonZCfOZAbJkUVdDzEvSjdr7y9EZBjJcMb0ebkDCOX5dZA7i0NSSyMiqqxpMT8dNbEEhm1QlU9lBgs72gZBCkM3ZBOBzpLAHeRffy2IZBwAehiM1MdO5UELDSTQTaZChWRAfIO3AZDZD' \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "messaging_product": "whatsapp",
+        "to": "<USER_PHONE_NUMBER>",
+        "type": "text",
+        "text": {
+          "body": "Hello! Thanks for contacting us. How can we help you today?"
+        }
+      }'
